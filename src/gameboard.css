@@ -1,0 +1,30 @@
+.game {
+  display:flex;
+  justify-content: space-around;
+}
+.gameboard {
+  display:grid;
+  width: 35vw;
+  height: 35vw;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border-style: solid;
+}
+
+.gameboard div{
+  border-style: solid;
+  border-width: 1px;
+}
+
+.water {
+  background-color: slateblue;
+}
+
+.ship {
+  background-color: slategrey;
+}
+
+.hit {
+  background-color: red;
+}
+
